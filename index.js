@@ -1,3 +1,5 @@
+require('console.table')
+
 const { mainQuestions, displayTable } = require('./lib/questions');
 const addDepartment = require('./lib/department');
 const addRole = require('./lib/role');
